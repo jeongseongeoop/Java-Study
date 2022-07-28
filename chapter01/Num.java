@@ -1,3 +1,5 @@
+package chapter01;
+
 public class Num{
     public static void main(String[] args) {
         short sVal = 10;
