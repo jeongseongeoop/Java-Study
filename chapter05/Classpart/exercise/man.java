@@ -1,8 +1,8 @@
-package chapter05.Classpart;
+package chapter05.Classpart.exercise;
 
-public class person {
+public class man {
     // 멤버변수
-    String PersonName;
+    String ManName;
     int height;
     int age;
     double weight;
@@ -11,19 +11,19 @@ public class person {
     String childern;
     
     public String getpernsonName(){
-        return PersonName;
+        return ManName;
     }
 
     public static void main(String[] args){
-        person ps = new person();
+        man ps = new man();
 
-        ps.PersonName = "james";
+        ps.ManName = "james";
         ps.age = 40;
         ps.married = true;
         ps.childern = "3";
 
         System.out.println(
-            "이름은 :" +  ps.PersonName+
+            "이름은 :" + ps.ManName+
             "나이는 :" + ps.age+
             "결혼은 :" + ps.married+
             "자식은 :" + ps.childern
