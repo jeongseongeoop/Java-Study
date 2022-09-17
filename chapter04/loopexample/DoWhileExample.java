@@ -4,7 +4,6 @@ public class DoWhileExample {
     public static void main(String[] args){
     int num = 1;
     int num2 = 0;
-
         do{
             num2 += num;
             num++;
