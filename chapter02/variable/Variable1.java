@@ -12,3 +12,12 @@ public class Variable1 {
         System.out.println(age);
     }
 }
+
+
+
+
+
+
+
+
+
